@@ -1,0 +1,1 @@
+# octobercms-plugin-partnerprofile
