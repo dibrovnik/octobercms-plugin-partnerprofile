@@ -1,0 +1,22 @@
+fields:
+    avatar_verificated:
+        label: Верифицирован
+        type: switch
+        span: left
+    user_id:
+        label: Dropdown
+        span: auto
+        search: true
+        showSearch: true
+        optionsMethod: getUsersNoPartners
+        type: dropdown
+    avatarPhoto:
+        label: Аватар
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        readOnly: true
+        type: fileupload

@@ -1,0 +1,24 @@
+columns:
+    label:
+        label: Name
+        type: text
+    type:
+        label: Type
+        type: text
+    required:
+        label: Required
+        type: switch
+    sort_order:
+        label: sort_order
+        type: number
+    category:
+        label: Category
+        type: text
+        relation: category
+        select: name
+    name:
+        label: Name
+        type: text
+    checkbox_trigger:
+        label: 'Checkbox trigger'
+        type: switch

@@ -1,0 +1,10 @@
+name: PartnersController
+form: $/dibrovnik/partnerprofile/models/partner/fields.yaml
+modelClass: Dibrovnik\Partnerprofile\Models\Partner
+defaultRedirect: dibrovnik/partnerprofile/partnerscontroller
+create:
+    redirect: 'dibrovnik/partnerprofile/partnerscontroller/update/:id'
+    redirectClose: dibrovnik/partnerprofile/partnerscontroller
+update:
+    redirect: dibrovnik/partnerprofile/partnerscontroller
+    redirectClose: dibrovnik/partnerprofile/partnerscontroller

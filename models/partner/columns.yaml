@@ -1,0 +1,19 @@
+columns:
+    avatar_verificated:
+        label: avatar_verificated
+        type: switch
+    account_verificated:
+        label: account_verificated
+        type: switch
+    user_id:
+        label: email
+        type: text
+        searchable: true
+        select: email
+        relation: user
+    username:
+        label: name
+        type: text
+        searchable: true
+        select: first_name
+        relation: user

@@ -1,0 +1,8 @@
+options:
+    label: 'Опции таксономии'
+    view:
+        list: $/dibrovnik/partnerprofile/models/taxonomyoption/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/dibrovnik/partnerprofile/models/taxonomyoption/fields.yaml
+        toolbarButtons: save|delete

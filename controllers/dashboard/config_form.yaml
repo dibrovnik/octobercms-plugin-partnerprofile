@@ -1,0 +1,10 @@
+name: Dashboard
+form: $/dibrovnik/partnerprofile/models/dashboard/fields.yaml
+modelClass: Dibrovnik\Partnerprofile\Models\Dashboard
+defaultRedirect: dibrovnik/partnerprofile/dashboard
+create:
+    redirect: 'dibrovnik/partnerprofile/dashboard/update/:id'
+    redirectClose: dibrovnik/partnerprofile/dashboard
+update:
+    redirect: dibrovnik/partnerprofile/dashboard
+    redirectClose: dibrovnik/partnerprofile/dashboard

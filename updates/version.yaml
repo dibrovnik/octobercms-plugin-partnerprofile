@@ -1,0 +1,86 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table dibrovnik_partnerprofile_fields'
+    - builder_table_create_dibrovnik_partnerprofile_fields.php
+v1.0.3:
+    - 'Updated table dibrovnik_partnerprofile_field_values'
+    - builder_table_update_dibrovnik_partnerprofile_field_values.php
+v1.0.5:
+    - 'Updated table dibrovnik_partnerprofile_fields'
+    - builder_table_update_dibrovnik_partnerprofile_fields.php
+v1.0.6:
+    - 'Updated table dibrovnik_partnerprofile_fields'
+    - builder_table_update_dibrovnik_partnerprofile_fields_2.php
+v1.0.7:
+    - 'Create table dibrovnik_partnerprofile_fields_categories'
+    - builder_table_create_dibrovnik_partnerprofile_fields_categories.php
+v1.0.8:
+    - 'Updated table dibrovnik_partnerprofile_fields'
+    - builder_table_update_dibrovnik_partnerprofile_fields_3.php
+v1.0.9:
+    - 'Created table dibrovnik_partnerprofile_partner'
+    - builder_table_create_dibrovnik_partnerprofile_partner.php
+v1.0.10:
+    - 'Updated table dibrovnik_partnerprofile_partner'
+    - builder_table_update_dibrovnik_partnerprofile_partner.php
+v1.0.11:
+    - 'Updated table dibrovnik_partnerprofile_partner'
+    - builder_table_update_dibrovnik_partnerprofile_partner_2.php
+v1.0.12:
+    - 'Updated table dibrovnik_partnerprofile_partner'
+    - builder_table_update_dibrovnik_partnerprofile_partner_3.php
+v1.0.13:
+    - 'Updated table dibrovnik_partnerprofile_fields'
+    - builder_table_update_dibrovnik_partnerprofile_fields_4.php
+v1.0.14:
+    - 'Created table dibrovnik_partnerprofile_checkbox_items'
+    - builder_table_create_dibrovnik_partnerprofile_checkbox_items.php
+v1.0.15:
+    - 'Updated table dibrovnik_partnerprofile_checkbox_items'
+    - builder_table_update_dibrovnik_partnerprofile_checkbox_items.php
+v1.0.16:
+    - 'Updated table dibrovnik_partnerprofile_checkbox_items'
+    - builder_table_update_dibrovnik_partnerprofile_checkbox_items_2.php
+v1.0.17:
+    - 'Updated table dibrovnik_partnerprofile_partner'
+    - builder_table_update_dibrovnik_partnerprofile_partner_4.php
+v1.0.18:
+    - 'Created table dibrovnik_partnerprofile_price_settings'
+    - builder_table_create_dibrovnik_partnerprofile_price_settings.php
+v1.0.19:
+    - 'Updated table dibrovnik_partnerprofile_partner'
+    - builder_table_update_dibrovnik_partnerprofile_partner_5.php
+v1.0.20:
+    - 'Created table dibrovnik_partnerprofile_dashboard'
+    - builder_table_create_dibrovnik_partnerprofile_dashboard.php
+v1.0.21:
+    - 'Updated table dibrovnik_partnerprofile_partner'
+    - builder_table_update_dibrovnik_partnerprofile_partner_6.php
+v1.0.22:
+    - 'Updated table dibrovnik_partnerprofile_partner'
+    - builder_table_update_dibrovnik_partnerprofile_partner_7.php
+v1.0.23:
+    - 'Created table dibrovnik_partnerprofile_taxonomies'
+    - builder_table_create_dibrovnik_partnerprofile_taxonomies.php
+v1.0.24:
+    - 'Updated table dibrovnik_partnerprofile_taxonomy_options'
+    - builder_table_update_dibrovnik_partnerprofile_taxonomy_options.php
+v1.0.25:
+    - 'Updated table dibrovnik_partnerprofile_taxonomy_options'
+    - builder_table_update_dibrovnik_partnerprofile_taxonomy_options_2.php
+v1.0.26:
+    - 'Updated table dibrovnik_partnerprofile_taxonomy_options'
+    - builder_table_update_dibrovnik_partnerprofile_taxonomy_options_3.php
+v1.0.27:
+    - 'Updated table dibrovnik_partnerprofile_fields'
+    - builder_table_update_dibrovnik_partnerprofile_fields_5.php
+v1.0.28:
+    - 'Created table dibrovnik_partnerprofile_partner_taxonomy'
+    - builder_table_create_dibrovnik_partnerprofile_partner_taxonomy.php
+v1.0.29:
+    - 'Created table dibrovnik_partnerprofile_'
+    - builder_table_create_dibrovnik_partnerprofile_.php
+v1.0.30:
+    - 'Updated table dibrovnik_partnerprofile_'
+    - builder_table_update_dibrovnik_partnerprofile_partner_taxonomy.php

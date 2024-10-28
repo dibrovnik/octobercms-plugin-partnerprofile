@@ -1,0 +1,88 @@
+fields:
+    label:
+        label: Label
+        span: auto
+        type: text
+    type:
+        label: Type
+        options:
+            text: text
+            taxonomy: taxonomy
+            image: image
+            schedule: schedule
+            date: date
+            city: city
+            textarea: textarea
+            select: select
+            checkbox: checkbox
+        showSearch: true
+        span: auto
+        type: dropdown
+    required:
+        label: Required
+        span: auto
+        type: checkbox
+    options:
+        label: options
+        prompt: 'Add new item'
+        displayMode: accordion
+        span: auto
+        trigger:
+            action: show
+            field: type
+            condition: value[select]
+        type: repeater
+        form:
+            fields:
+                option_value:
+                    label: option_value
+                    span: auto
+                    type: text
+                option_label:
+                    label: option_label
+                    span: auto
+                    type: text
+    sort_order:
+        label: 'Order in list'
+        span: auto
+        default: '0'
+        type: number
+    category_id:
+        label: Category
+        optionsMethod: getCategoryIdOptions
+        showSearch: true
+        span: auto
+        type: dropdown
+    name:
+        label: Name
+        span: auto
+        required: 1
+        type: text
+        comment: 'Unique name'
+    checkbox_trigger:
+        label: 'Checkbox trigger'
+        span: auto
+        type: switch
+    taxonomy_id:
+        label: Taxonomy
+        optionsMethod: getTaxonomiesIdOptions
+        showSearch: true
+        span: auto
+        required: 1
+        trigger:
+            action: show
+            field: type
+            condition: value[taxonomy]
+        type: dropdown
+    taxonomy_style:
+        label: Taxonomy style
+        options:
+            dropdown: dropdown
+            checkbox: checkbox
+        span: auto
+        type: dropdown
+        required: 1
+        trigger:
+            action: show
+            field: type
+            condition: value[taxonomy]

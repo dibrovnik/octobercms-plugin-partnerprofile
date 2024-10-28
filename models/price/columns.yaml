@@ -1,0 +1,7 @@
+columns:
+    currency_options:
+        label: currency_options
+        type: text
+    value_options:
+        label: value_options
+        type: text

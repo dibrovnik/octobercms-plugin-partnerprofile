@@ -1,0 +1,10 @@
+columns:
+    field_id:
+        label: field_id
+        type: text
+    checkbox_item_text:
+        label: checkbox_item_text
+        type: text
+    sort_order:
+        label: sort
+        type: switch

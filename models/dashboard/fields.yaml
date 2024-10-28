@@ -1,0 +1,20 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    link:
+        label: Link
+        showSearch: true
+        span: auto
+        optionsMethod: getPageOptions
+        type: dropdown
+    icon:
+        label: Icon
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

@@ -1,0 +1,10 @@
+name: Category
+form: $/dibrovnik/partnerprofile/models/category/fields.yaml
+modelClass: Dibrovnik\Partnerprofile\Models\Category
+defaultRedirect: dibrovnik/partnerprofile/category
+create:
+    redirect: 'dibrovnik/partnerprofile/category/update/:id'
+    redirectClose: dibrovnik/partnerprofile/category
+update:
+    redirect: dibrovnik/partnerprofile/category
+    redirectClose: dibrovnik/partnerprofile/category

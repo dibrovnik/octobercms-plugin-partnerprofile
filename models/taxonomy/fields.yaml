@@ -1,0 +1,16 @@
+fields:
+    name:
+        label: 'Название таксономии'
+        span: auto
+        type: text
+    slug:
+        label: Слаг
+        span: auto
+        readOnly: 1
+        type: text
+    options:
+        label: Relation
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation

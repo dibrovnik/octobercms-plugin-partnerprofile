@@ -1,0 +1,10 @@
+name: Prices
+form: $/dibrovnik/partnerprofile/models/price/fields.yaml
+modelClass: Dibrovnik\Partnerprofile\Models\Price
+defaultRedirect: dibrovnik/partnerprofile/prices
+create:
+    redirect: 'dibrovnik/partnerprofile/prices/update/:id'
+    redirectClose: dibrovnik/partnerprofile/prices
+update:
+    redirect: dibrovnik/partnerprofile/prices
+    redirectClose: dibrovnik/partnerprofile/prices

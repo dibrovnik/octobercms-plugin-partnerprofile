@@ -1,0 +1,20 @@
+name: Taxonomy
+form: $/dibrovnik/partnerprofile/models/taxonomy/fields.yaml
+modelClass: Dibrovnik\Partnerprofile\Models\Taxonomy
+defaultRedirect: dibrovnik/partnerprofile/taxonomy
+create:
+    redirect: 'dibrovnik/partnerprofile/taxonomy/update/:id'
+    redirectClose: dibrovnik/partnerprofile/taxonomy
+update:
+    redirect: dibrovnik/partnerprofile/taxonomy
+    redirectClose: dibrovnik/partnerprofile/taxonomy
+
+relation:
+    options:
+        label: 'Опции таксономии'
+        view:
+            list: $/dibrovnik/partnerprofile/models/taxonomyoption/columns.yaml
+            toolbarButtons: create|delete
+        manage:
+            form: $/dibrovnik/partnerprofile/models/taxonomyoption/fields.yaml
+            toolbarButtons: save|delete

@@ -1,0 +1,10 @@
+fields:
+    name:
+        label: 'Название опции'
+        span: full
+        type: text
+    slug:
+        label: 'Слаг'
+        span: full
+        type: text
+        readOnly: 1

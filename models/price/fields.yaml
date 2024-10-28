@@ -1,0 +1,14 @@
+tabs:
+    fields:
+        currency_options:
+            label: 'Currency options'
+            span: auto
+            type: text
+            comment: 'Enter all values separated by commas. For example: Ruble, Dollar, Euro, Yuan, etc'
+            tab: 'Tab 1'
+        value_options:
+            label: 'Values options'
+            span: auto
+            type: text
+            comment: 'Enter all values separated by commas. For example: Per day, per hour, etc'
+            tab: 'Tab 1'

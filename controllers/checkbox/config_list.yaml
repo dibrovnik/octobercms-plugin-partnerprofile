@@ -1,0 +1,12 @@
+list: $/dibrovnik/partnerprofile/models/checkbox/columns.yaml
+modelClass: Dibrovnik\Partnerprofile\Models\Checkbox
+title: Checkbox
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'dibrovnik/partnerprofile/checkbox/update/:id'

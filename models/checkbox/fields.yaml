@@ -1,0 +1,16 @@
+fields:
+    field_id:
+        label: Dropdown
+        span: auto
+        showSearch: true
+        optionsMethod: getFieldsOptions
+        type: dropdown
+    sort_order:
+        label: 'Sort order'
+        span: auto
+        default: '0'
+        type: number
+    checkbox_item_text:
+        label: 'Checkbox item text'
+        span: auto
+        type: textarea

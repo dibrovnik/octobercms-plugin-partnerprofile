@@ -1,0 +1,8 @@
+<h3>Введённые данные:</h3>
+<ul>
+    {% for field in fields %}
+    <li><strong>{{ field.label }}:</strong> {{ field.value|escape }}</li>
+    {% else %}
+    <li>Нет данных для отображения</li>
+    {% endfor %}
+</ul>

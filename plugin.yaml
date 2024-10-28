@@ -1,0 +1,26 @@
+plugin:
+    name: 'dibrovnik.partnerprofile::lang.plugin.name'
+    description: 'dibrovnik.partnerprofile::lang.plugin.description'
+    author: DibrovNik
+    icon: oc-icon-group
+    homepage: ''
+navigation:
+    Fields:
+        label: 'Поля профиля'
+        url: dibrovnik/partnerprofile/fields
+        icon: icon-pencil
+        permissions:
+            - dibrovnik.partnerprofile.manage_categories
+        sideMenu:
+            categories:
+                label: Categories
+                url: dibrovnik/partnerprofile/category
+                icon: icon-sitemap
+            checkbox-settings:
+                label: 'Checkbox settings'
+                url: /
+                icon: icon-sitemap
+permissions:
+    dibrovnik.partnerprofile.manage:
+        tab: 'Партнёрский профиль'
+        label: 'Управление полями'

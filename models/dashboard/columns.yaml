@@ -1,0 +1,10 @@
+columns:
+    link:
+        label: link
+        type: text
+    name:
+        label: name
+        type: text
+    sort_order:
+        label: sort_order
+        type: number

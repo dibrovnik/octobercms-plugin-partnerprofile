@@ -1,0 +1,10 @@
+name: Checkbox
+form: $/dibrovnik/partnerprofile/models/checkbox/fields.yaml
+modelClass: Dibrovnik\Partnerprofile\Models\Checkbox
+defaultRedirect: dibrovnik/partnerprofile/checkbox
+create:
+    redirect: 'dibrovnik/partnerprofile/checkbox/update/:id'
+    redirectClose: dibrovnik/partnerprofile/checkbox
+update:
+    redirect: dibrovnik/partnerprofile/checkbox
+    redirectClose: dibrovnik/partnerprofile/checkbox

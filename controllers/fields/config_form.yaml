@@ -1,0 +1,11 @@
+name: Fields
+modelClass: Dibrovnik\Partnerprofile\Models\Field
+form: $/dibrovnik/partnerprofile/models/field/fields.yaml
+defaultRedirect: dibrovnik/partnerprofile/Fields
+create:
+    redirect: 'dibrovnik/partnerprofile/Fields/update/:id'
+    redirectClose: dibrovnik/partnerprofile/Fields
+update:
+    redirect: dibrovnik/partnerprofile/Fields
+    redirectClose: dibrovnik/partnerprofile/Fields
+preview: {  }
